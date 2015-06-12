@@ -1,0 +1,36 @@
+body {
+    padding-top: 50px;
+}
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    background-color: #f5f5f5;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.box {
+    /*border: 1px solid black;*/
+    margin-bottom: 15px;
+    margin-right: 0px;
+}
+.sidebar {
+    /*border: 1px solid black;*/
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.left-bar {
+    /*border: 1px solid yellow;*/
+    padding-left: 0px;
+}
+
+.sidebar-box {
+    margin-bottom: 15px;
+}
