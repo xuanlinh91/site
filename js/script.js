@@ -12,10 +12,4 @@ $(document).ready(function(){
         }
     });
 
-    $(".box").mouseover(function(){
-        $(this).css('box-shadow','0px 0px 2px #808080');
-    });
-    $(".box").mouseleave(function(){
-        $(this).css('box-shadow','0px 0px 0px #FFF');
-    });
 });
