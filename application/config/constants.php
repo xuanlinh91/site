@@ -84,3 +84,6 @@ define('EXIT_USER_INPUT', 7); // invalid user input
 define('EXIT_DATABASE', 8); // database error
 define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+define('ARTICLE_IMAGE_UPLOAD', 'Article_'); // highest automatically-assigned error code
+define('USER_SESSION_KEY', 'USER_LOGIN'); // highest automatically-assigned error code
+define('UPLOAD_PATH', '/uploads/images'); // highest automatically-assigned error code

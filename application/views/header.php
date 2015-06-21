@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!--    <link rel="icon" href="../../assets/ico/favicon.ico">-->
-
     <title>Starter Template for Bootstrap</title>
 
-    <!-- Bootstrap core CSS -->
     <?php echo link_tag('css/bootstrap.min.css'); ?>
+    <?php echo link_tag('css/style.css'); ?>
     <script src="/site/js/jquery-1.11.3.min.js"></script>
     <script src="/site/js/bootstrap.min.js"></script>
     <script src="/site/js/script.js"></script>
@@ -82,24 +79,8 @@
             //responsive code end
         });
     </script>
-
-
-    <!-- jssor slider scripts-->
-    <!-- use jssor.js + jssor.slider.js instead for development -->
-    <!-- jssor.slider.mini.js = (jssor.js + jssor.slider.js) -->
     <script type="text/javascript" src="/site/js/jssor.slider.mini.js"></script>
 
-    <!-- Custom styles for this template -->
-    <?php echo link_tag('css/style.css'); ?>
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--    [if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!--    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <!--    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -109,7 +90,6 @@
 </head>
 
 <body>
-
 <div class="menu">
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container col-lg-offset-1">
@@ -132,7 +112,8 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
+
+<div class="container-fluid well">
     <div class="container">
         <div class="row">
             <div class="slider col-lg-10 col-lg-offset-1">
@@ -242,10 +223,4 @@
                 </div>
             </div>
         </div>
-        <!-- Jssor Slider Begin -->
-        <!-- To move inline styles to css file/block, please specify a class name for each element. -->
-        <!-- ================================================== -->
-        <!-- Jssor Slider End -->
-    </div>
 
-</div>

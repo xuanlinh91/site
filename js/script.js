@@ -11,5 +11,15 @@ $(document).ready(function(){
             //$('.menu').slideup();
         }
     });
+    $('#edit-article-delete').click(function () {
+        var redirect_link = $(this).closest("form").attr("action");
+        var deleteConfirm = confirm('Are you sure to delete this article?');
+        if (deleteConfirm) {
+            window.location.href = redirect_link;
+        }
+
+        return false;
+    });
+
 
 });
