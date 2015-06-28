@@ -89,3 +89,21 @@ time {
     font-family: ff-oxide-solid-web;
     font-size: 10px;
 }
+
+.article-content{
+    font-size: 18px;
+}
+
+.article-content {
+    margin-top: 10px;
+
+}
+
+.article-box-content{
+    font-family: Exchange SSm;
+    box-shadow: -1px 0 2px 0 rgba(0,0,0,0.12) , 1px 0 2px 0 rgba(0,0,0,0.12) , 0 1px 1px 0 rgba(0,0,0,0.24);
+    padding: 10px;
+    background-color: #fff;
+    min-height: 200px;
+
+}

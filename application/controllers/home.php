@@ -25,7 +25,7 @@ class Home extends MY_Controller {
 
 	public function demo()
 	{
-        $result = $this->article->get_all_data();
+        $result = $this->t_article->get_all_data();
         $data['result'] = $result;
 		$this->load->view('demo', $data);
 	}
